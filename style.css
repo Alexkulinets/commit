@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css2?family=Inder&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=ABeeZee&display=swap);
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding:0;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+}
+body{
+    
+    display:flex;
+    align-items:center;
+    font-family: 'Inder', sans-serif;
+}
+
+.label{
+    text-transform: uppercase;
+    font-weight:700;
+    color:rgb(77, 167, 77);
+    letter-spacing: 4px;
+    text-shadow: rgb(172, 172, 172) 0px 4px 5px ;
+}
+
+.title{
+    margin-top:16px;
+    font-weight:900;
+    font-size: 27px;
+    text-shadow: rgb(172, 172, 172) .75px 2px 5px ;
+
+}
+
+.sectionFive__content--text{
+    margin-top:27px;
+    font-size: 1.15em;
+    max-width: 400px;
+    text-shadow: rgb(172, 172, 172) 2.5px 1.25px 5px ;
+}
+
+.sectionFive__cards{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: rgb(255, 255, 255);
+    max-height:500px;
+    gap:47px;
+    padding:auto;
+    position:relative;
+    width:1000px;
+    height:350px;
+
+}
+
+.sectionFive--cards--1{
+    position:relative;
+    display:flex;
+    display:block;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+    height:299px;
+    width: 499px;
+    box-shadow: rgb(172, 172, 172) 2.5px 1.25px 5px ;
+    background: rgb(255, 255, 255);
+    border-radius:15px;
+}
+.sectionFive--cards--2{
+    position:relative;
+    display:flex;
+    display:block;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+    height:299px;
+    width: 499px;
+    box-shadow: rgb(172, 172, 172) 2.5px 1.25px 5px ;
+    background: rgb(255, 255, 255);
+    border-radius:15px;
+
+}
+.sectionFive--cards--3{
+    position:relative;
+    display:flex;
+    display:block;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+    height:299px;
+    width: 499px;
+    box-shadow: rgb(172, 172, 172) 2.5px 1.25px 5px ;
+    background: rgb(255, 255, 255);
+    border-radius:15px;
+
+}
+.sectionFive--cards--4{
+    position:relative;
+    display:flex;
+    display:block;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+    height:299px;
+    width: 499px;
+    box-shadow: rgb(172, 172, 172) 2.5px 1.25px 5px ;
+    background: rgb(255, 255, 255);
+    border-radius:15px;
+
+}
+img{
+    margin-top:18.5px;
+}
+
+.name{
+    color:rgb(0, 0, 0);
+    font-weight:750;
+    font-size:1.1em;
+    margin-top:19px;
+    margin-left:25px;
+    display:flex;
+    justify-content:flex-start;
+}
+
+.position{
+    display:flex;
+    justify-content:flex-start;
+    margin-left:25px;
+    margin-top:17px;
+    font-weight:200;
+    color:rgb(150, 150, 150);
+
+}
+
+.sectionFive__{ 
+    margin-top:35px;
+    background: rgb(79, 79, 79); 
+    height:48px;
+    width:170px;
+    font-weight:500;
+    font-size: 15px;
+    color:white;
+    font-family: 'Inter', sans-serif;   
+    border-radius:7.5px;
+    border-color:rgb(79, 79, 79);
+}
+
+.sectionFive__:hover{ 
+    color:white;
+    font-family: 'Inter', sans-serif;  
+    transition: 0.05s; 
+    user-select: none;
+    cursor:pointer;
+    border-radius:7.5px;
+    border-color:rgb(79, 79, 79);
+}
+.sectionFive__:active{ 
+    background: rgb(60, 60, 60); 
+    color:white;
+    font-family: 'Inter', sans-serif;  
+    transform:3s;
+    user-select: none;
+    border-radius:7.5px;
+    border-color:rgb(79, 79, 79);
+}
+
+.button {
+    margin: 0 auto;
+    margin-top: 52px;
+    display: block;
+    font-size: 14px;
+    box-align: center;
+    color: #626262;
+    background: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #626262;
+    border-color: #626262; 
+    height: 60px;
+    width: 165px;
+    text-decoration: #ffffff;
+}
